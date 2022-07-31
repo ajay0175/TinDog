@@ -163,7 +163,7 @@ p{
 
 /* @media Breaks */
 
-@media screen and (max-width:1150px) {
+@media screen and (max-width:1028px) {
     body{
         font-size: 1rem;
     }
@@ -172,9 +172,7 @@ p{
     }
 
     .iphone-img{
-        width: 18%;
-        position: absolute;
-        right: 22%;
+        position: static;
         transform: rotate(0);
     }
 
@@ -194,36 +192,6 @@ p{
     .section-heading {
         font-size: 2.5rem;
         line-height: 1.5;
-    }
-}
-
-@media screen and (max-width:1011px) {
-    .title-image {
-      width:25%;
-      position:absolute;
-      right:22%;
-    }
-  
-    .big-heading {
-      font-family: "Montserrat";
-      font-size: 3rem;
-      line-height: 1.5;
-      font-weight: 900;
-      text-align: center;
-    }
-  
-   .col-lg-6 {
-     text-align:center;
-   }
-  
-}
-
-@media screen and (max-width:991px) {
-    .title-image {
-      width:40%;
-      position:relative;
-      right:0%;
-      transform: rotate(0);
     }
 }
   
